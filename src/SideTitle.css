@@ -1,0 +1,126 @@
+.contenido-hero>p {
+    font-size: 2rem;
+    -webkit-text-stroke-width: 0.15px;
+    -webkit-text-stroke-color: white;
+    line-height: 1.75rem;
+    color: black;
+    margin-top: 1.5rem;
+    font-weight: inherit;
+}
+
+.contenido-hero {
+    padding-top: 12rem;
+    display: inline-flex;
+}
+
+.subtitulo1 {
+    /* padding-top: %; */
+    margin: 10px;
+    font-size: 4.5rem;
+    line-height: 1;
+    letter-spacing: -.025em;
+    font-weight: 900;
+}
+
+h2::after {
+    content: " UDG.";
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
+    background-size: 400% 100%;
+}
+
+
+
+@-webkit-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-moz-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-o-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+
+.button1 {
+    color: rgb(255 255 255);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    border-color: transparent;
+    text-align: center;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: inherit;
+    margin: 0;
+}
+
+.morada {
+    width: auto;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    max-width: 50%;
+    height: auto;
+}
+
+.header {}

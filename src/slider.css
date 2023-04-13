@@ -1,0 +1,22 @@
+.carousel {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+@media (max-width: 900px) {
+    .carousel {
+        width: auto;
+        height: auto;
+    }
+}
+
+/* .carousel-caption {
+    position: absolute;
+    bottom: -60px;
+} */
+
+.carousel-item {
+    width: auto;
+    height: auto;
+}

@@ -10,8 +10,9 @@ root.render(
   <React.StrictMode>
     <div className='wrapper'>
       <TopMenu />
-      <Slider />
       <SideTitle />
+      <Slider />
+
     </div>
   </React.StrictMode>
 );

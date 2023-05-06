@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.wrapper {
+.extender {
   height: 100%;
   width: 100%;
   left: 0;
@@ -28,6 +28,11 @@ code {
   -z-animation: rainbow 18s ease infinite;
   -o-animation: rainbow 18s ease infinite;
   animation: rainbow 18s ease infinite;
+}
+
+
+.wrapper {
+  margin-bottom: 5%;
 }
 
 @-webkit-keyframes rainbow {

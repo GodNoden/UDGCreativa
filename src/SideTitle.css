@@ -6,12 +6,12 @@
     color: black;
     margin-top: 1.5rem;
     font-weight: inherit;
+    max-width: 70%;
+    text-align: left;
 }
 
-.input1 {}
-
 .container {
-    display: flex; 
+    display: flex;
     justify-content: flex-end;
 }
 

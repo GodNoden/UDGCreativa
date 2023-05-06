@@ -1,0 +1,10 @@
+.form {
+    width: 40%;
+    /* display: flex;
+    justify-content: center; */
+    margin: auto
+}
+
+.captcha {
+    margin-bottom: 1.5%;
+}

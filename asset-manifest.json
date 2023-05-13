@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/UDGCreativa/static/css/main.1b09cd5c.css",
+    "main.js": "/UDGCreativa/static/js/main.04f87423.js",
+    "index.html": "/UDGCreativa/index.html",
+    "main.1b09cd5c.css.map": "/UDGCreativa/static/css/main.1b09cd5c.css.map",
+    "main.04f87423.js.map": "/UDGCreativa/static/js/main.04f87423.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b09cd5c.css",
+    "static/js/main.04f87423.js"
+  ]
+}
